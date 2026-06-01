@@ -97,10 +97,10 @@ public class MainActivity extends AppCompatActivity {
                     adapter.notifyDataSetChanged();
                     recyclerView.post(() -> recyclerView.scrollToPosition(chatList.size() - 1));
                 });
-            } catch (Exception e) {
+            } catch (Exception exception) {
                 runOnUiThread(() -> {
                     chatList.remove(chatList.size() - 1);
-                    chatList.add(new ChatMessage("Error: " + e.getMessage(), false));
+                    chatList.add(new ChatMessage("Error: " + exception.getMessage(), false));
                     adapter.notifyDataSetChanged();
                     recyclerView.post(() -> recyclerView.scrollToPosition(chatList.size() - 1));
                 });
