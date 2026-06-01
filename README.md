@@ -1,13 +1,4 @@
-sayrahulraj/ConnectAI
-
-main
-(default)
-
-
-
-ConnectAI Overview
-
-ConnectAI Overview
+**ConnectAI** Overview
 ConnectAI is an Android-based chat application designed to provide a seamless interface for interacting with large language models via the OpenRouter API. It utilizes a single-activity architecture to facilitate real-time, bidirectional communication between a user and an AI backend.
 
 The application serves as a demonstration of modern Android development practices, including Material 3 design, asynchronous networking with OkHttp, and dynamic UI updates using RecyclerView.
